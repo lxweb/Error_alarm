@@ -4,7 +4,7 @@ Welcome to error alarm, this is a simple tool used to send a notification every 
 
 ## Configuratio
 
-In this file: (src/module/classes/observers/AlertObserver.js)[https://github.com/lxweb/Error_alarm/blob/main/src/module/classes/observers/AlertObserver.js] you will find the parameters to set up the module.
+In this file: [src/module/classes/observers/AlertObserver.js](https://github.com/lxweb/Error_alarm/blob/main/src/module/classes/observers/AlertObserver.js) you will find the parameters to set up the module.
 By default:
 ```bash
 const acceptedAmount = 10 // amount of errors

@@ -4,7 +4,12 @@ Welcome to error alarm, this is a simple tool used to send a notification every 
 
 ## Configuratio
 
-To test this modules just run the file "/src/module/logger.js"
+In this file: (src/module/classes/observers/AlertObserver.js)[https://github.com/lxweb/Error_alarm/blob/main/src/module/classes/observers/AlertObserver.js] you will find the parameters to set up the module.
+By default:
+```bash
+const acceptedAmount = 10 // amount of errors
+const period = 60 // in seconds
+const periodBetweenEmails = 3600 // One email per hour
+```
 
-In line 7 you will see the milliseconds for the timer, if you change the timer you can test all the scenarios
-
+To test this module just run the file "/src/module/logger.js"

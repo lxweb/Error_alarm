@@ -12,4 +12,5 @@ const period = 60 // in seconds
 const periodBetweenEmails = 3600 // One email per hour
 ```
 
+## Test
 To test this module just run the file "/src/module/logger.js"
